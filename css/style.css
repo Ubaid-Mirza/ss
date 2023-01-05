@@ -1,0 +1,194 @@
+
+/* START OF I */
+.navbaar-i{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262626;
+}
+
+.nav-list{
+
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-list-i-a{
+
+    color: white;
+}
+
+/* END OF I */
+
+/* START OF II */
+
+.navbaar-ii{
+
+    background-color: #262626;
+}
+
+.nav-list-ii-a{
+
+    color: white;
+}
+
+.one :hover{
+
+    color: aqua;
+}
+
+.nav-list-ii{
+
+    text-transform: capitalize;
+    
+}
+
+.two :hover{
+
+    color: aqua;
+}
+/* END OF II */
+
+/* START OF III */
+
+.navbaar-iii{
+
+    background-color: #e9e5e5;
+    padding: 10px;
+}
+.navbar-nav-iii{
+
+
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+/* END OF III */
+
+/* START OF MAIN-ONE */
+.main-one{
+    background-color: #fafafa;
+    padding: 10px;
+}
+.main-one-order-list{
+
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.main-one-list{
+
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    max-width: 350px;
+    padding: 0px;
+    
+}
+/* END OF MAIN-ONE */
+
+/* START OF MAIN-TWO */
+.main-two{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafafa;
+}
+
+.main-two-left{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.line-one{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-three{
+
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    max-width: 350px;
+    color: blue;
+    padding: 0px;
+}
+
+.line-six{
+
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    max-width: 350px;
+    padding: 0px;
+}
+
+
+.elite{
+
+    width: 10%;
+}
+/* END OF MAIN-TWO */
+
+/* START OF MAIN-THREE */
+
+.main-three-img{
+
+    display: block;
+    margin: 0 auto;
+}
+
+.main-three-ii{
+
+   display: flex;
+   justify-content: space-evenly;
+}
+
+
+/* REsponsive */
+
+@media only screen and (max-width: 1010px){
+
+    .navbaar-ii{
+
+        display: none;
+    }
+
+    .navbaar-iii{
+
+        display: none;
+    }
+
+
+    .navbaar-i{
+
+        display: none;
+    }
+
+    .main-two-right{
+
+        display: none;
+    }
+
+    .main-two-left{
+
+        display: block;
+        margin: 0 auto;
+    }
+
+    .screen-button{
+
+        display: block;
+        margin: 0 auto;
+    }
+}
