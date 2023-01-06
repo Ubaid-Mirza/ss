@@ -1,4 +1,9 @@
+*{
 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* START OF I */
 .navbaar-i{
 
@@ -26,6 +31,7 @@
 .navbaar-ii{
 
     background-color: #262626;
+    padding: 0px;
 }
 
 .nav-list-ii-a{
@@ -56,23 +62,58 @@
 
     background-color: #e9e5e5;
     padding: 10px;
+    border-bottom: 2px solid silver;
 }
 .navbar-nav-iii{
 
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     list-style-type: none;
     font-size: 13px;
     padding: 0px;
     margin: 0px;
     
 }
+.navbar-nav-iii > li{
+
+    padding: 5px;
+    
+}
+
+.navbar-nav-iii > li:hover{
+
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#searchi{
+
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.search-button{
+
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.search-button:hover{
+
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+}
 /* END OF III */
 
 /* START OF MAIN-ONE */
 .main-one{
-    background-color: #fafafa;
+    background-color: #e9E5E5;
     padding: 10px;
 }
 .main-one-order-list{
@@ -89,6 +130,10 @@
     max-width: 350px;
     padding: 0px;
     
+}
+
+.iq-one{
+    text-decoration: none;
 }
 /* END OF MAIN-ONE */
 
@@ -154,6 +199,115 @@
    justify-content: space-evenly;
 }
 
+/* START OF ABOUT-US */
+
+.about-policy-left-side{
+
+    border-left: 2px solid black;
+    
+}
+
+.about-policy-right-side{
+
+    border-left: 2px solid black;
+    
+}
+
+.about-us-list{
+
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+/* END OF ABOUT-US */
+
+/* START OF AUTHOR-INFORMATION */
+
+.author-row-one{
+
+    border-bottom: 1px solid black;
+}
+
+.author-row-two{
+
+    border-bottom: 1px solid black;
+}
+
+.author-row-three{
+
+    border-bottom: 1px solid black;
+}
+
+.author-row-five-list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.btn-success{
+
+    margin-bottom: 10px;
+}
+/* END OF AUTHOR-INFORMATION */
+
+/* START OF FOOTER-ONE */
+.footer-one{
+
+    background-color: silver;
+}
+
+/* END OF FOOTER-ONE */
+
+
+/* START OF FOOTER-TWO */
+.footer-two{
+
+    background-color: #262626;
+    padding: 30px;
+    
+}
+
+.footer-two-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #e9e5e5;
+    
+}
+
+/* END OF FOOTER-TWO */
+
+/* START OF FOOTER-THREE */
+.footer-three{
+
+    
+    background-color: #262626;
+    padding: 30px;
+}
+
+
+
+.footer-three-left-list{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    list-style-type: none;
+    color: #e9e5e5;
+}
+
+
+.para-one{
+    color: #e9e5e5;
+}
+
+.para-two{
+    color: #e9e5e5;
+}
+/* END OF FOOTER-THREE */
+
 
 /* REsponsive */
 
@@ -191,4 +345,6 @@
         display: block;
         margin: 0 auto;
     }
+
+   
 }
